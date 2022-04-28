@@ -3,6 +3,9 @@
 }
 .nav-container{
     background: rgb(7, 7, 7);
+    position: sticky;
+    top: 0;
+    z-index: 2;
 }
 nav{
     width: 80%;
@@ -37,7 +40,7 @@ nav{
     }
     .order{
         background: red;
-        padding: 1rem 2 rem;
+        padding: 1rem 2rem;
         border-radius: 2rem;
     }
 }
